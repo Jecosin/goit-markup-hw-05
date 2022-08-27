@@ -70,7 +70,13 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button type="button" class="button">Замовити послугу</button>
+          <button type="button" class="button" data-modal-open>Замовити послугу</button>
+          <div class="backdrop" data-modal>
+            <div class="modal">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum ab aliquid aperiam ea quaerat quae, distinctio placeat laborum hic.</p>
+              <button data-modal-close>Закрити</button>
+            </div>
+          </div>
         </div>
       </section>
       <section class="sections">
@@ -135,12 +141,15 @@
           <ul class="list second-section">
             <li class="items">
               <img src="./imeges/kayboard.jpg" alt="клавіатура" width="370" />
+              <p class="about-discript">Десктопні додатки</p>
             </li>
             <li class="items">
               <img src="./imeges/phone.jpg" alt="телефон" width="370" />
+              <p class="about-discript">Мобільні додатки</p>
             </li>
             <li class="items">
               <img src="./imeges/ipad.jpg" alt="планшет" width="370" />
+              <p class="about-discript">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
@@ -473,5 +482,6 @@
         </div>
       </div>
     </footer>
+   <script src="./js/modal.js"></script>
   </body>
 </html>
