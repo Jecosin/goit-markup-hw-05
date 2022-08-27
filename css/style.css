@@ -523,7 +523,8 @@ transition: background-color 250ms var(--timing-functione);
     border: 1px solid var(--icone-color);
     border-radius: 4px;
 
-    transition: fill 250ms var(--timing-functione);
+    transition: fill 250ms var(--timing-functione),
+    border-color 250ms var(--timing-functione);
 }
 
 .clients .item:not(:nth-last-child()) {
