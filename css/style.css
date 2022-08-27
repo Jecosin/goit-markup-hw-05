@@ -145,6 +145,20 @@ color: var(--primary-text-color);
      transition: opacity 250ms var(--timing-functione);
 }
 
+.site-nav .current::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accsent-color);
+    opacity: 1;
+}
+
 .site-nav .link:hover::after {
 opacity: 1;
 }
