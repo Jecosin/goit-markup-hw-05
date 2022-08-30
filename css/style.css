@@ -68,7 +68,7 @@ img {
     }
 .conteiner-team {
     display: block;
-        padding: 20px 30px;
+        padding: 30px 0;
         margin-top: 0;
         margin-bottom: 0;
     
@@ -332,7 +332,7 @@ margin-right: 8px;
 
 .head-sectione {
     background-color: var(--primary-background-color);
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #ECECEC;
 }
 .section-title {
 
@@ -469,7 +469,9 @@ margin-right: 8px;
 .team-sochmed {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
+
 
 }
  .team-sochmed .item {
@@ -517,7 +519,7 @@ color 250ms var(--timing-functione);
 .featurelist-text {
     text-align: center;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 
     color: var(--secondory-text-color);
     font-size: 16px;
@@ -745,6 +747,7 @@ transition:box-shadow 250ms var(--timing-functione);
 }
 .footer-conteiner {
     display: flex;
+    align-items: baseline;
 }
 .sochmed-conteiner {
     margin-left: 70px;
@@ -778,6 +781,8 @@ transition:box-shadow 250ms var(--timing-functione);
     font-size: 14px;
     line-height: 1.17;
     text-decoration: none;
+
+    transition: color 250ms var(--timing-functione);
 }
 
 .footer .footer-contacts {
@@ -797,6 +802,8 @@ transition:box-shadow 250ms var(--timing-functione);
 margin-bottom: 9px;
 }
 
+.adress:hover,
+.adress:focus,
 .footer-contacts:hover,
 .footer-contacts:focus {
     color: var(--accsent-color);
