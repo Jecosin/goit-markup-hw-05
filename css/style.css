@@ -269,6 +269,7 @@ padding-bottom: 32px;
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: 2;
     background-color: rgba(0, 0, 0, 0.2);
 
     opacity: 1;
@@ -493,7 +494,8 @@ transition: background-color 250ms var(--timing-functione),
 color 250ms var(--timing-functione);
 
 }
-.team-links:hover {
+.team-links:hover,
+.team-links:focus {
    color: var(--hero-tittle-color);
    background-color: var(--accsent-color);
 }
@@ -847,12 +849,9 @@ margin-bottom: 9px;
 
         transition: background-color 250ms var(--timing-functione);
 }
-/* .foot-links:last-child{
-    margin-right: 0px; 
-} */
 
-
-.foot-links:hover {
+.foot-links:hover,
+.foot-links:focus {
     color: var(--hero-tittle-color);
      background-color: var(--accsent-color);
 }
